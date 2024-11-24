@@ -1,18 +1,18 @@
 # Evaluation I
 
-Ce dépôt a été créé pour des fin d'évaluation.
+Ce dépôt a été créé à des fin d'évaluation.
 
 ## Comment débuter l'évaluation
 
 * "Clone" le dépôt à l'aide de PyCharm.
 * Exécuter-le pour valider que le programme actuel fonctionne bien sur votre environnement.
-* Activer git flow pour créer la branche "develop"
+* Activer git flow pour créer la branche "develop".
 
 ```
   git flow init
 ```
 
-* IMPORTANT - ne publier pas votre code (git push) avant la fin de l'examen.
+* !!! IMPORTANT - ne publiez pas votre code (git push) avant la fin de l'examen. !!!
 
 ## TODO
 
@@ -59,6 +59,12 @@ Vous devez réaliser 2 tâches durant cette évaluation.
 
 * Optionnel - vous commitez avec le commentaire suivant "feat: power operator"
 
-# Une fois terminé
+# Livrable
 
-Vous pouvez soit continuer de travailler sur votre poste, soit aller en pause. De retour à 12h00 pour la livraison du code.
+Une fois terminé, vous pouvez:
+
+* soit continuer de travailler sur votre poste, 
+* soit aller en pause. 
+ 
+De retour à 12h00 pour la livraison du code.
+
