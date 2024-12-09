@@ -14,5 +14,15 @@ class Mathlib:
 
     @classmethod
     def execute(self, MathRequest):
-        if(MathRequest.get_oper() == 'add'):
-            MathRequest.set_res(MathRequest.get_ope1() + MathRequest.get_ope2())
+        match MathRequest.get_oper() :
+            case "add":
+                MathRequest.set_res(MathRequest.get_ope1() + MathRequest.get_ope2())
+
+            case 'sub':
+                MathRequest.set_res(MathRequest.get_ope1() - MathRequest.get_ope2())
+
+            case 'mul':
+                MathRequest.set_res(MathRequest.get_ope1() * MathRequest.get_ope2())
+
+            case 'div':
+                MathRequest.set_res(MathRequest.get_ope1() / MathRequest.get_ope2())
