@@ -26,3 +26,7 @@ class Mathlib:
 
             case 'div':
                 MathRequest.set_res(MathRequest.get_ope1() / MathRequest.get_ope2())
+
+            case "pow":
+                MathRequest.set_res(MathRequest.get_ope1() ** MathRequest.get_ope2())
+
