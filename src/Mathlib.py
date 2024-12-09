@@ -1,19 +1,18 @@
-from MathRequest import MathRequest
+from src.MathRequest import MathRequest
 
-class Mathlib():
+
+
+class Mathlib:
     def __init__(self):
         self.MathRequest = MathRequest
 
     def get_variable(self,MathRequest):
-        op1=MathRequest.get_ope1()
-        op2=MathRequest.get_ope2()
+        ope1=MathRequest.get_ope1()
+        ope2=MathRequest.get_ope2()
         oper=MathRequest.get_oper()
-        return op1,op2,oper
+        return ope1,ope2,oper
 
-    def calculator(self):
-        o
-
-
-
-
-
+    @classmethod
+    def execute(self, MathRequest):
+        if(MathRequest.get_oper() == 'add'):
+            MathRequest.set_res(MathRequest.get_ope1() + MathRequest.get_ope2())
