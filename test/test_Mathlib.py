@@ -48,5 +48,25 @@ class TestMathlib(unittest.TestCase):
         # then
         self.assertEqual(math_request.get_res(), 0.75)
 
+    def test_execute_pow_get_result(self):
+        # given
+        math_request = MathRequest(3, 'pow', 4)
+
+        # when
+        Mathlib.execute(math_request)
+
+        # then
+        self.assertEqual(math_request.get_res(), 81)
+
+    def test_execute_square_get_result(self):
+        # given
+        math_request = MathRequest(9, 'square', 2)
+
+        # when
+        Mathlib.execute(math_request)
+
+        # then
+        self.assertEqual(math_request.get_res(), 3.00)
+
 if __name__ == '__main__':
     unittest.main()

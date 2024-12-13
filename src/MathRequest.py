@@ -1,6 +1,6 @@
 class MathRequest:
 
-    def __init__ (self, ope1, oper, ope2):
+    def __init__ (self, ope1, oper, ope2,):
         self.ope1 = ope1
         self.oper = oper
         self.ope2 = ope2

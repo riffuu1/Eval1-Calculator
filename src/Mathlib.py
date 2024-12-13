@@ -30,3 +30,6 @@ class Mathlib:
             case "pow":
                 MathRequest.set_res(MathRequest.get_ope1() ** MathRequest.get_ope2())
 
+            case "square":
+                MathRequest.set_res(round(MathRequest.get_ope1() ** (1/MathRequest.get_ope2()),2))
+
